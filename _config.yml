@@ -1,14 +1,13 @@
 # Site settings
-title: Your awesome title
-email: your-email@domain.com
+title: Eight Kids Farm
+email: pdschloss@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+  <b>Raising adults since 2000.</b><br>
+  We're a family farm in Dexter, MI raising our 8 children to be amazing adults with the help of our sheep, cows, chickens, pigs, and bees.
 baseurl: "" # the subpath of your site, e.g. /blog/
-url: "http://yourdomain.com" # the base hostname & protocol for your site
-twitter_username: jekyllrb
-github_username:  jekyll
+url: "http://nkidsfarm.com" # the base hostname & protocol for your site
+twitter_username: nkidsfarm
+facebook_username: nkidsfarm
 
 # Build settings
 markdown: kramdown
