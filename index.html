@@ -1,24 +1,85 @@
 ---
-layout: default
+layout: home
 ---
 
-<div class="home">
+<div class="header">
 
-<!---  <h1 class="page-heading">Posts</h1>
+	<div class="container">
+		<div class="pull-right">
+			<ul class="nav nav-pills">
+				<li role="presentation"><a href="">Farm Diary</a></li>
+				<li role="presentation"><a href="">Animals</a></li>
+				<li role="presentation"><a href="">Wool Products</a></li>
+				<li role="presentation"><a href="">Recipes</a></li>
+				<li role="presentation"><a href="">Contact</a></li>
+			</ul>
+		</div>
 
-  <ul class="post-list">
-    {% for post in site.posts %}
-      <li>
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+		<h1>Eight Kids Farm</h1>
+		<p>Raising adults since 2000</p>
+	</div>
 
-        <h2>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-        </h2>
+</div>
 
-      </li>
-    {% endfor %}
-  </ul>
+<div class="blurb">
+	<div class="container">
+		<div class="row vertical-align">
+			<div class="col-md-8">
+				Since 2009 we’ve lived in Webster Township, Michigan raising sheep, cows, chickens, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam id purus blandit, efficitur arcu quis, dapibus turpis. Proin feugiat lorem arcu, eu vehicula est mollis pretium. Aenean quis lobortis orci. Maecenas vel metus ac turpis semper mollis in aliquet augue. Suspendisse vitae ultricies dui, in tincidunt risus. Integer vel augue eu diam luctus egestas sed ac neque. Suspendisse potenti. Ut sed dolor aliquet, molestie mauris vitae, tincidunt urna. Phasellus gravida ligula ante, at posuere enim vehicula consequat. In hac habitasse platea dictumst.
+			</div>
+			<div class="col-md-4">
+				<img src="assets/img/mary_lambs.jpg"/>
+			</div>
+		</div>
+		<div class="row vertical-align">
+			<div class="col-sm-4 vcenter">
+				<img src="assets/img/joe_jerry.jpg"/>
+			</div>
+			<div class="col-sm-8">
+				What’s for sale... Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam id purus blandit, efficitur arcu quis, dapibus turpis. Proin feugiat lorem arcu, eu vehicula est mollis pretium. Aenean quis lobortis orci. Maecenas vel metus ac turpis semper mollis in aliquet augue. Suspendisse vitae ultricies dui, in tincidunt risus. Integer vel augue eu diam luctus egestas sed ac neque. Suspendisse potenti. Ut sed dolor aliquet, molestie mauris vitae, tincidunt urna. Phasellus gravida ligula ante, at posuere enim vehicula consequat. In hac habitasse platea dictumst.
+			</div>
+		</div>
+	</div>
+</div>
 
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
---->
+<div class="buttons">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-3">
+				<a href="">
+					<div class="vertical-align circle"><p>Farm Diary<p></div>
+				</a>
+			</div>
+
+			<div class="col-md-3">
+				<a href="">
+					<div class="vertical-align circle"><p>Animals<p></div>
+				</a>
+			</div>
+
+			<div class="col-md-3">
+				<a href="">
+					<img src="assets/img/mary_lambs.jpg" alt="Farm Diary" class="align-center img-circle pic">
+					<div class="overlap vertical-align">Wool Products</div>
+				</a>
+			</div>
+
+			<div class="col-md-3">
+				<a href="">
+					<img src="assets/img/mary_lambs.jpg" alt="Farm Diary" class="align-center img-circle pic">
+					<div class="overlap vertical-align">Recipes</div>
+				</a>
+			</div>
+		</div>
+	</div>
+</div>
+
+<div class="announcement">
+	<div class="container">
+		<h1>We currently have cuts of lamb in stock and are taking orders for quarter, half, and full pigs that will be available in January.</h1>
+
+		<div class="button">
+			<a class="btn btn-default" href="">Place Your Order</a>
+		</div>
+	</div>
 </div>
