@@ -1,6 +1,6 @@
 ---
 layout: page
-folder: diary
+category: diary
 ---
 <div class="diary">
 	<div class="container-fluid">
@@ -14,10 +14,9 @@ folder: diary
 			</div>
 
 		</div>
-
 	<ul>
 	  {% for post in site.posts %}
-		{% if post.folder == "diary" %}
+		{% if post.category == "diary" %}
 			<li>
 				<a class="diary-title" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
 				<p class="post-meta">{{ post.date | date: "%b %-d, %Y" }}{% if post.author %} • {{ post.author }}{% endif %}</p>
