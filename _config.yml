@@ -11,3 +11,6 @@ facebook_username: nkidsfarm
 
 # Build settings
 markdown: kramdown
+
+gems:
+  - jekyll-sitemap
