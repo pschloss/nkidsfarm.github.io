@@ -54,15 +54,16 @@ $on-laptop:        800px;
 
 
 html{
-
+	background-color: $grey-color;
 }
 
 body {
 	max-width: 900px;
 	margin: 0 auto;
+	background-color: #fff;
 }
 
-.container {
+.container-fluid {
 	width: 100%;
 }
 
@@ -140,6 +141,13 @@ body {
 	margin: 50px 0;
 }
 
+.buttons h2 {
+	color: #755125;
+	font-weight: 600;
+	text-align: center;
+	margin: 0px 0 30px;
+}
+
 .buttons .col-md-3 {
 	position: relative;
 }
@@ -149,35 +157,25 @@ body {
 	font-weight: 800;
 	font-size: 24px;
 	text-decoration: none;
-}
-
-.buttons .pic {
-	opacity: 0.4;
-	position:relative;
-    text-align: center;
-    float: left;
-}
-
-.buttons .overlap {
-	top: 60px;
-	width: 100%;
-}
-
-.circle {
-	width: 200px;
-	height: 200px;
-	border: 2px solid #755125;
-	background-color: #755125;
-	color: orange;
-	border-radius: 100px;
-
-}
-
-.circle p {
-	text-align: center;
 	margin: 0;
 	padding: 0;
- }
+	line-height: 110%;
+}
+
+.button-pic {
+	opacity: 0.3;
+	position: relative;
+	margin: auto;
+}
+
+.button-caption {
+	text-align: center;
+	position: absolute;
+	top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+	margin: 0;
+}
 
 
 
@@ -212,9 +210,39 @@ body {
 	display: inline-block;
 }
 
-.btn-default:hover {
+.btn:hover, .btn:focus {
 	background-color: #755125;
 	color: #ff8e00;
 	border-color: white;
+}
 
+.btn:active {
+	background-color: #755125;
+	color: #ff8e00;
+	border-color: white;
+}
+
+.footer {
+	background-color: #755125;
+	color: #fff;
+	font-weight: 50;
+	padding: 20px 0 20px;
+}
+
+.footer ul {
+	list-style-type: none;
+	padding: 0px;
+	margin: 0px;
+}
+
+.footer li {
+}
+
+.footer a, .footer a:hover {
+	color: white;
+	text-decoration: none;
+}
+
+.footer .icon > svg > path {
+	fill: #fff;
 }
