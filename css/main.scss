@@ -65,6 +65,8 @@ body {
 
 .container-fluid {
 	width: 100%;
+	padding: 0 20px;
+	margin-top: 20px;
 }
 
 .header {
@@ -124,15 +126,24 @@ body {
 
 .blurb {
 	color: #755125;
-	margin: 30px 0 0 0;
+	margin: 0;
 }
 
+.blurb .row {
+	margin: 0 0 0 0;
+}
+.blurb h3 {
+	padding: 0;
+	margin: 30px 0 0 0;
+	font-weight: 800;
+}
 .blurb p {
-	padding: 10px;
+	padding: 0px;
 }
 
 .blurb img {
-	margin: auto;
+	margin: 30px auto 0;;
+	padding: 0;
 }
 
 .vcenter {
