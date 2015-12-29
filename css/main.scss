@@ -275,7 +275,12 @@ body {
 	margin: 0px;
 }
 
+.footer .copy li {
+	display: list-item;
+}
+
 .footer li {
+	display: inline-block;
 }
 
 .footer a, .footer a:hover {
