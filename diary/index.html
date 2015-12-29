@@ -2,9 +2,27 @@
 layout: page
 folder: diary
 ---
+<div class="diary">
+	<div class="container-fluid">
+		<div class="row" style="margin-bottom:40px">
+			<div class="col-xs-4">
+				<img src="../assets/img/patrick_pigs.jpg" alt="Farm Diary" class=" img-responsive">
+			</div>
+			<div class="col-xs-8 blurb">
+				Welcome to the diary of our farm! Here we'll keep you updated on the latest happenings at Eight Kids Farm. We'll try to get everyone to contribute something so you can learn about the farm from everyone's perspective. Feel free to let us know if you have any questions that you would like to see us discuss in the diary. Also, if you've heard rumors of something crazy Papa did (like the time he put a lamb in the back of Mama's van) and you'd like the official story, just holler!
+			</div>
+		</div>
 
-This is content...
-
-{{ page.folder }}
-
-... did it work?
+	<ul>
+	  {% for post in site.posts %}
+		{% if post.category == "diary" %}
+			<li>
+				<a class="diary-title" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+				<p class="post-meta">{{ post.date | date: "%b %-d, %Y" }}{% if post.author %} • {{ post.author }}{% endif %}</p>
+				{{ post.excerpt }}
+			</li>
+		{% endif %}
+	  {% endfor %}
+	</ul>
+</div>
+</div>

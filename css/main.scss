@@ -11,7 +11,7 @@ $base-font-size:   16px;
 $small-font-size:  $base-font-size * 0.875;
 $base-line-height: 1.5;
 
-$spacing-unit:     30px;
+$spacing-unit:     20px;
 
 $text-color:       #111;
 $background-color: #fdfdfd;
@@ -285,4 +285,33 @@ body {
 
 .footer .icon > svg > path {
 	fill: #fff;
+}
+
+
+.diary {
+	margin: 0px;
+}
+.diary .blurb {
+	color: #755125;
+	font-size: 19px;
+	font-weight: 500;
+}
+.diary ul {
+	list-style-type: none;
+	margin: 0;
+}
+.diary li { margin-bottom: 30px; }
+
+.diary-title {
+	font-weight: 800;
+	text-decoration: none;
+	color: #755125;
+	display: block;
+    font-size: 24px;
+}
+
+
+
+.post-meta {
+	margin: 0;
 }
