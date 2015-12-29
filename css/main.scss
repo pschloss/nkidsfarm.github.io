@@ -291,6 +291,14 @@ body {
 .diary {
 	margin: 0px;
 }
+.diary h2 {
+	font-weight: 800;
+	color: #755125;
+	font-size: 36px;
+
+
+}
+
 .diary .blurb {
 	color: #755125;
 	font-size: 19px;
@@ -309,7 +317,13 @@ body {
 	display: block;
     font-size: 24px;
 }
-
+.diary-title:visited {
+	color: #ff8e00;
+}
+.diary-title:hover {
+	color: #ff8e00;
+	text-decoration: none;
+}
 
 
 .post-meta {
