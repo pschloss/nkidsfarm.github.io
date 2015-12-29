@@ -10,6 +10,12 @@
     <div class="page-content">
       <div class="wrapper">
         {{ content }}
+
+		{% if post.comments %}
+			{% include disqus.html %}
+		{% endif %}
+
+
       </div>
     </div>
 
