@@ -32,5 +32,11 @@ columns: 3
 
 		{% endfor %}
 
+		<p>column_index: {{ column_index }}</p>
+
+		{% if column_index != 0 %}
+			</div>
+		{% endif %}
+
 	</div>
 </div>
