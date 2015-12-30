@@ -1,8 +1,10 @@
-{%	if page.categories[0] != NULL %}
-{%		assign cat = page.categories[0] %}
-{%	else if page.category != NULL %}
-{%		assign cat = page.category %}
-{%	endif	%}
+{%	if page.collection != ""			%}
+{%		assign cat = page.collection	%}
+{%	else if page.category != ""			%}
+{%		assign cat = page.category		%}
+{%	else if page.categories[0] != ""	%}
+{%		assign cat = page.categories[0]	%}
+{%	endif								%}
 
 <header class="site-header">
 
