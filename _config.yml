@@ -7,5 +7,9 @@ twitter_username: nkidsfarm
 facebook_username: nkidsfarm
 email: nkidsfarm@gmail.com
 
+collections:
+  products:
+    output: true
+
 # Build settings
 markdown: kramdown
