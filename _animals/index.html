@@ -4,18 +4,17 @@ category: animals
 columns: 3
 ---
 
-<div class="anials">
+<div class="animals">
 
 	<div class="container-fluid">
 		<h2>Animals</h2>
 		<div class="blurb">
-			In the Spring of each year the sheep are sheared to remove their thick wool sweaters that they don't need for the Michigan summers. After the shearers have left, we take the raw wool to <a href="http://www.zwool.com">Zeilinger's Wool Mill</a> in Frankenmuth. We work with their wonderful staff to have the wool processed so that we can produce excellent woolen products from our flock. Below are items that we have for sale - click on a picture to learn more abou that product and to see pricing information. We are also happy to produce custom products if you would like to commission one of our expert artisans.
+			Our farm has a diverse collection of animals that act mutualistically to maintain their health and productivity. We raise sheep, cows, pigs, chickens, and bees to produce high quality and energy packed products for members of our community. All of our animals are raised without the use of artificial hormones or growth-promoting antibiotics on the pastures of our 25 acre farm in Dexter, MI. While the sheep, cows, and bees receive a 100% forage diet, the chickens and pigs receive a GMO-free feed that is grown locally and purchased from the <a href="http://dextermill.com">Dexter Mill</a>. Our pigs, lambs, and cattle are processed at <a href="http://dunbarmeats.com">Dunbar's Meat Packing Company</a> in Milan because they share our goal of providing an exceptional experience for our customers. Our goal is to raise these animals in as humane and transparent a manner as possible. We'd love to have you out for one of our open houses to learn more about our animals. For now, feel free to check out the links below to learn more about how we raise the animals and how you can enjoy the great meat, eggs, and honey from our farm.
 		</div>
 
 		{% assign width = 12 | divided_by: {{page.columns}} %}
 		{% assign column_index = 0 %}
 		{% for item in site.animals %}
-
 			{% if column_index == 0 %}<div class="row">{% endif %}
 
 			{% if item.title != nil %}
