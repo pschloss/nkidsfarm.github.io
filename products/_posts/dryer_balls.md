@@ -1,5 +1,5 @@
 ---
-layout: product-description
+layout: product_description
 title:  "Dryer balls"
 ---
 
