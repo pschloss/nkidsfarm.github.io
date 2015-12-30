@@ -300,8 +300,6 @@ body {
 	font-weight: 800;
 	color: #755125;
 	font-size: 36px;
-
-
 }
 
 .diary .blurb {
@@ -331,10 +329,12 @@ body {
 }
 
 
+.post {
+	margin: 0 25px;
+}
 .post-meta {
 	margin: 0;
 }
-
 
 .blog-nav {
 	margin: 35px 15px;
@@ -346,4 +346,22 @@ body {
 }
 .blog-nav a:hover {
 	color: #ff8e00;
+}
+
+.products h2 {
+	font-weight: 800;
+	color: #755125;
+	font-size: 36px;
+}
+
+.products .blurb {
+	color: #755125;
+	font-size: 19px;
+	font-weight: 500;
+	margin-bottom: 25px;
+	line-height: 120%;
+}
+
+.products .row {
+	margin-bottom: 25px;
 }
