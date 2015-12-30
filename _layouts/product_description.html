@@ -2,11 +2,18 @@
 layout: default
 collection: products
 ---
-<div class="post">
+<div class="products">
+	<div class="container-fluid">
+		<h2>{{ page.title }}</h2>
 
-	<h2>{{ page.title }}</h2>
-	<img src="{{ page.picture }}">
-	{{ content }}
-	<p>{{ page.price }}</p>
-
+		<div class="row">
+			<div class="col-md-3">
+				<img class="img-responsive" src="{{ page.picture }}">
+			</div>
+			<div class="col-md-9 blurb">
+				{{ content }}
+				<p>{{ page.price }}</p>
+			</div>
+		</div>
+	</div>
 </div>

@@ -1,7 +1,7 @@
 ---
 layout: product_description
 title:  "Braided Rugs"
-price: $4.99
+price: $150
 picture: ../assets/img/patrick_pigs.jpg
 ---
 
