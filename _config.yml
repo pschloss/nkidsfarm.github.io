@@ -10,3 +10,5 @@ email: nkidsfarm@gmail.com
 collections:
   products:
     output: true
+  animals:
+    output: true
