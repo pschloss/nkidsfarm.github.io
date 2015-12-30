@@ -1,11 +1,8 @@
 ---
 layout: product_description
-title:  "Mattress Pads"
+title:  "Hot pads"
 price:
-  Twin: $250
-  Full: $300
-  Queen: $330
-  King: $380
+  Each: $8
 picture: ../assets/img/patrick_pigs.jpg
 ---
 

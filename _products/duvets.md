@@ -1,7 +1,11 @@
 ---
 layout: product_description
 title:  "Duvets"
-price: $4.99
+price:
+  Twin: $100
+  Full: $110
+  Queen: $130
+  King: $150
 picture: ../assets/img/patrick_pigs.jpg
 ---
 

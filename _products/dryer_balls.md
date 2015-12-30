@@ -1,7 +1,9 @@
 ---
 layout: product_description
 title:  "Dryer balls"
-price: $4.99
+price:
+  Each: $6
+  Two: $10
 picture: ../assets/img/patrick_pigs.jpg
 ---
 

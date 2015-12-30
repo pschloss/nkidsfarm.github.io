@@ -1,7 +1,8 @@
 ---
 layout: product_description
 title:  "Crocheted Soap"
-price: $4.99
+price:
+  Each: $12
 picture: ../assets/img/patrick_pigs.jpg
 ---
 

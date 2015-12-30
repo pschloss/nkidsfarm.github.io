@@ -1,11 +1,12 @@
 ---
 layout: product_description
-title:  "Mattress Pads"
+title:  "Quilt batting"
 price:
-  Twin: $250
-  Full: $300
-  Queen: $330
-  King: $380
+  Lap quilt: $27
+  Twin: $32
+  Full: $40
+  Queen: $50
+  King: $62
 picture: ../assets/img/patrick_pigs.jpg
 ---
 

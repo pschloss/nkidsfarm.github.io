@@ -2,8 +2,8 @@
 layout: product_description
 title:  "Braided Rugs"
 price:
-  Small: $100
-  Large: $150
+  Small: $XXX
+  Large: $XXX
 picture: ../assets/img/patrick_pigs.jpg
 ---
 

@@ -1,7 +1,10 @@
 ---
 layout: product_description
 title:  "Crocheted rugs"
-price: $4.99
+price:
+  Small: $XXX
+  Medium: $XXX
+  Large: $XXX
 picture: ../assets/img/patrick_pigs.jpg
 ---
 
