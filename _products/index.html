@@ -10,27 +10,22 @@ category: products
 		<div class="blurb">
 			In the Spring of each year the sheep are sheared to remove their thick wool sweaters that they don't need for the Michigan summers. After the shearers have left, we take the raw wool to <a href="http://www.zwool.com">Zeilinger's Wool Mill</a> in Frankenmuth. We work with their wonderful staff to have the wool processed so that we can produce excellent woolen products from our flock. Below are items that we have for sale - click on a picture to learn more abou that product and to see pricing information. We are also happy to produce custom products if you would like to commission one of our expert artisans.
 		</div>
-		<div class="row">
-			<div class="col-xs-4">
-				<a href="dryer_balls.html"><img src="../assets/img/patrick_pigs.jpg" alt="Farm Diary" class=" img-responsive"></a>
-			</div>
-			<div class="col-xs-4">
-				<a href="crocheted_soap.html"><img src="../assets/img/patrick_pigs.jpg" alt="Farm Diary" class=" img-responsive"></a>
-			</div>
-			<div class="col-xs-4">
-				<a href="braided_rugs.html"><img src="../assets/img/patrick_pigs.jpg" alt="Farm Diary" class=" img-responsive"></a>
-			</div>
-		</div>
 
-		<div class="row">
-			<div class="col-xs-4">
-				<a href="pillows.html"><img src="../assets/img/patrick_pigs.jpg" alt="Farm Diary" class=" img-responsive"></a>
-			</div>
-			<div class="col-xs-4">
-				<a href="mattress_pads.html"><img src="../assets/img/patrick_pigs.jpg" alt="Farm Diary" class=" img-responsive"></a>
-			</div>
-			<div class="col-xs-4">
-				<a href="duvets.html"><img src="../assets/img/patrick_pigs.jpg" alt="Farm Diary" class=" img-responsive"></a>
-			</div>
-		</div>
-	<ul>
+		{% assign column_index = 0 %}
+		{% for item in site.products %}
+
+			{% if column_index == 0 %}<div class="row">{% endif %}
+
+			{% if item.title != nil %}
+				{% assign column_index = column_index | plus: 1 %}
+				<div class="col-xs-4">
+					<a href="{{ item.url }}"><img src="{{ item.picture }}" alt="{{ item.title }}" class=" img-responsive"></a>
+				</div>
+			{% endif %}
+
+			{% if column_index == 3 %}{% assign column_index = 0 %}</div>{% endif %}
+
+		{% endfor %}
+
+	</div>
+</div>
