@@ -10,6 +10,3 @@ email: nkidsfarm@gmail.com
 collections:
   products:
     output: true
-
-# Build settings
-markdown: kramdown
