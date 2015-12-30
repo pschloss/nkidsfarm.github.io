@@ -1,6 +1,6 @@
 ---
 layout: product_description
-title:  "Dryer balls"
+title:  "Pillows"
 price: $4.99
 picture: ../assets/img/patrick_pigs.jpg
 ---

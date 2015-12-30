@@ -1,9 +1,12 @@
 ---
 layout: default
+collection: products
 ---
 <div class="post">
 
+	<h2>{{ page.title }}</h2>
+	<img src="{{ page.picture }}">
 	{{ content }}
-
+	<p>{{ page.price }}</p>
 
 </div>
