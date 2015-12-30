@@ -12,7 +12,12 @@ collection: products
 			</div>
 			<div class="col-md-9 blurb">
 				{{ content }}
-				<p>{{ page.price }}</p>
+
+				<div class="price">
+					{% for p in page.price do %}
+						<p>{{ p[0] }}: {{ p[1] }}</p>
+					{% endfor %}
+				</div>
 			</div>
 		</div>
 	</div>
