@@ -1,6 +1,6 @@
 ---
 layout: recipes
-title:  "Recipe 3"
+title:  "Recipe 5"
 picture: ../assets/img/patrick_pigs.jpg
 ---
 

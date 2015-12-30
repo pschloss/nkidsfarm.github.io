@@ -336,6 +336,7 @@ body {
 	margin: 0;
 }
 
+
 .blog-nav {
 	margin: 35px 15px;
 	padding: 0 5px;
@@ -347,6 +348,8 @@ body {
 .blog-nav a:hover {
 	color: #ff8e00;
 }
+
+
 
 .products h2 {
 	font-weight: 800;
@@ -374,6 +377,7 @@ body {
 }
 
 
+
 .animals h2 {
 	font-weight: 800;
 	color: #755125;
@@ -385,6 +389,26 @@ body {
 }
 
 .animals .blurb {
+	color: #755125;
+	font-size: 19px;
+	font-weight: 500;
+	margin-bottom: 25px;
+	line-height: 120%;
+}
+
+
+
+.recipes h2 {
+	font-weight: 800;
+	color: #755125;
+	font-size: 36px;
+}
+
+.recipes .row {
+	margin-bottom: 25px;
+}
+
+.recipes .blurb {
 	color: #755125;
 	font-size: 19px;
 	font-weight: 500;
