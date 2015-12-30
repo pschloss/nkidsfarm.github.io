@@ -12,3 +12,5 @@ collections:
     output: true
   animals:
     output: true
+  recipes:
+    output: true
