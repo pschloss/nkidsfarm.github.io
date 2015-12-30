@@ -1,5 +1,5 @@
 ---
-layout: product_description
+layout: product
 title:  "Crocheted Soap"
 price:
   Each: $12

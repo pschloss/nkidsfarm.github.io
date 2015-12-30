@@ -1,5 +1,5 @@
 ---
-layout: product_description
+layout: product
 title:  "Hot pads"
 price:
   Each: $8

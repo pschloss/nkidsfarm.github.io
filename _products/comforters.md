@@ -1,5 +1,5 @@
 ---
-layout: product_description
+layout: product
 title:  "Comforters"
 price:
   Twin: $XXX

@@ -1,5 +1,5 @@
 ---
-layout: product_description
+layout: product
 title:  "Braided Rugs"
 price:
   Small: $XXX

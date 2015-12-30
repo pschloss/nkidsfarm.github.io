@@ -1,5 +1,5 @@
 ---
-layout: product_description
+layout: product
 title:  "Quilt batting"
 price:
   Lap quilt: $27

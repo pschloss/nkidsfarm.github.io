@@ -1,5 +1,5 @@
 ---
-layout: product_description
+layout: product
 title:  "Mattress Pads"
 price:
   Twin: $250

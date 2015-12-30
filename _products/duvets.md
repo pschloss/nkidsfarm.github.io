@@ -1,5 +1,5 @@
 ---
-layout: product_description
+layout: product
 title:  "Duvets"
 price:
   Twin: $100
