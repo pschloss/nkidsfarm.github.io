@@ -1,3 +1,9 @@
+{%	if page.categories[0] != NULL %}
+{%		assign cat = page.categories[0] %}
+{%	else if page.category != NULL %}
+{%		assign cat = page.category %}
+{%	endif	%}
+
 <header class="site-header">
 
 	<div class="container-fluid">
@@ -6,11 +12,11 @@
 				{% if page.category != "home" %}
 				<li role="presentation" ><a href="{{site.baseurl}}/">Home</a></li>
 				{% endif %}
-				<li role="presentation" {% if page.category == "diary" %}class="active"{% endif %}><a href="{{site.baseurl}}/diary">Farm Diary</a></li>
-				<li role="presentation" {% if page.category == "animals" %}class="active"{% endif %}><a href="{{ site.baseurl }}/animals">Animals</a></li>
-				<li role="presentation" {% if page.category == "products" %}class="active"{% endif %}><a href="{{ site.baseurl }}/products">Wool Products</a></li>
-				<li role="presentation" {% if page.category == "recipes" %}class="active"{% endif %}><a href="{{ site.baseurl }}/recipes">Recipes</a></li>
-				<li role="presentation" {% if page.category == "contact" %}class="active"{% endif %}><a href="{{ site.baseurl }}/contact">Contact</a></li>
+				<li role="presentation" {% if cat == "diary" %}class="active"{% endif %}><a href="{{site.baseurl}}/diary">Farm Diary</a></li>
+				<li role="presentation" {% if cat == "animals" %}class="active"{% endif %}><a href="{{ site.baseurl }}/animals">Animals</a></li>
+				<li role="presentation" {% if cat == "products" %}class="active"{% endif %}><a href="{{ site.baseurl }}/products">Wool Products</a></li>
+				<li role="presentation" {% if cat == "recipes" %}class="active"{% endif %}><a href="{{ site.baseurl }}/recipes">Recipes</a></li>
+				<li role="presentation" {% if cat == "contact" %}class="active"{% endif %}><a href="{{ site.baseurl }}/contact">Contact</a></li>
 			</ul>
 		</div>
 	</div>

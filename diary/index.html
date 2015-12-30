@@ -2,6 +2,7 @@
 layout: page
 category: diary
 ---
+
 <div class="diary">
 	<div class="container-fluid">
 		<h2>Farm Diary</h2>
@@ -15,14 +16,12 @@ category: diary
 
 		</div>
 	<ul>
-	  {% for post in site.posts %}
-		{% if post.category == "diary" %}
+	  {% for post in site.categories.diary %}
 			<li>
 				<a class="diary-title" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
 				<p class="post-meta">{{ post.date | date: "%b %-d, %Y" }}{% if post.author %} • {{ post.author }}{% endif %}</p>
 				{{ post.excerpt }}
 			</li>
-		{% endif %}
 	  {% endfor %}
 	</ul>
 </div>
