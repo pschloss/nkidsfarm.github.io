@@ -1,7 +1,7 @@
 ---
 layout: animals
 title:  "Sheep"
-picture: ../assets/img/patrick_pigs.jpg
+picture: ../assets/img/ruth_lamb.jpg
 ---
 
 Papa's bees make the best honey

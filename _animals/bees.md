@@ -1,7 +1,7 @@
 ---
 layout: animals
 title:  "Bees"
-picture: ../assets/img/patrick_pigs.jpg
+picture: ../assets/img/bees.jpg
 ---
 
 Papa's bees make the best honey
