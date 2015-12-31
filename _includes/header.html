@@ -1,10 +1,10 @@
-{%	if page.collection != ""			%}
-{%		assign cat = page.collection	%}
-{%	else if page.category != ""			%}
-{%		assign cat = page.category		%}
-{%	else if page.categories[0] != ""	%}
-{%		assign cat = page.categories[0]	%}
-{%	endif								%}
+{%	if page.collection == "posts"				%}
+{%		assign value = page.categories[0]		%}
+{%	else if page.collection == ""				%}
+{%		assign value = page.category			%}
+{%	else										%}
+{%		assign value = page.collection			%}
+{%	endif										%}
 
 <header class="site-header">
 
@@ -14,11 +14,11 @@
 				{% if page.category != "home" %}
 				<li role="presentation" ><a href="{{site.baseurl}}/">Home</a></li>
 				{% endif %}
-				<li role="presentation" {% if cat == "diary" %}class="active"{% endif %}><a href="{{site.baseurl}}/diary">Farm Diary</a></li>
-				<li role="presentation" {% if cat == "animals" %}class="active"{% endif %}><a href="{{ site.baseurl }}/animals">Animals</a></li>
-				<li role="presentation" {% if cat == "products" %}class="active"{% endif %}><a href="{{ site.baseurl }}/products">Wool Products</a></li>
-				<li role="presentation" {% if cat == "recipes" %}class="active"{% endif %}><a href="{{ site.baseurl }}/recipes">Recipes</a></li>
-				<li role="presentation" {% if cat == "contact" %}class="active"{% endif %}><a href="{{ site.baseurl }}/contact">Contact</a></li>
+				<li role="presentation" {% if value == "diary" %}class="active"{% endif %}><a href="{{site.baseurl}}/diary">Farm Diary</a></li>
+				<li role="presentation" {% if value == "animals" %}class="active"{% endif %}><a href="{{ site.baseurl }}/animals">Animals</a></li>
+				<li role="presentation" {% if value == "products" %}class="active"{% endif %}><a href="{{ site.baseurl }}/products">Wool Products</a></li>
+				<li role="presentation" {% if value == "recipes" %}class="active"{% endif %}><a href="{{ site.baseurl }}/recipes">Recipes</a></li>
+				<li role="presentation" {% if value == "contact" %}class="active"{% endif %}><a href="{{ site.baseurl }}/contact">Contact</a></li>
 			</ul>
 		</div>
 	</div>
