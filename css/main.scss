@@ -127,14 +127,14 @@ body {
 	font-family: "Roboto Slab", serif;
 	color: #fff;
 	font-size: 60px;
-	margin: 400px 0 0 75px;
+	margin: 400px 0 0 50px;
 }
 
 .header p {
 	font-family: "Roboto Slab", serif;
 	color: #fff;
 	font-size: 24px;
-	margin: 0 0 100px 75px;
+	margin: 0 0 100px 50px;
 }
 
 
@@ -156,7 +156,7 @@ body {
 }
 
 .blurb img {
-	margin: 30px auto 0;;
+	margin: 30px auto 0;
 	padding: 0;
 }
 
@@ -416,8 +416,51 @@ body {
 	line-height: 120%;
 }
 
+.info ul {
+	list-style-type: none;
+}
+.info li {
+	color: #ff8e00;
+	line-height: 110%;
+	font-size: 16px
+}
+.info a {
+	color: #ff8e00;
+}
+.info a:hover {
+	color: #755125;
+}
+
+.recipes h3 {
+	font-weight: 700;
+	color: #755125;
+	font-size: 24px;
+}
 
 
+.ingredients{
+	margin: 15px 0;
+}
+.ingredients ul {
+}
+.ingredients li {
+	color: #755125;
+	line-height: 140%;
+	font-size: 16px;
+	margin-left: 0;
+}
+
+.instructions{
+	margin: 15px 0;
+}
+.instructions ol {
+}
+.instructions li {
+	color: #755125;
+	line-height: 140%;
+	font-size: 20px;
+	margin-left: 10px;
+}
 
 .picture-grid .pic {
 	opacity: 0.3;
@@ -446,5 +489,8 @@ body {
 .picture-grid a:hover .caption {
 /*	color: #fff;	*/
 	color: transparent;
+}
 
+img {
+	margin: 0 auto;
 }
