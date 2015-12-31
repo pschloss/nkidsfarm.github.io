@@ -13,7 +13,7 @@
 	{% include picture_grid.html pages=site.CATEGORY columns=6	%}
 {% endcomment %}
 
-<div class="picture_grid">
+<div class="picture-grid">
 
 	{%	if include.columns == nil							%}
 	{%		assign columns = 4								%}
@@ -23,7 +23,6 @@
 	{% 		assign width = 12 | divided_by: include.columns %}
 	{%	endif												%}
 
-
 	{% assign column_index = 0 %}
 
 	{% for item in include.pages %}
@@ -32,7 +31,10 @@
 			{% if column_index == 0 %}<div class="row">{% endif %}
 			{% assign column_index = column_index | plus: 1 %}
 			<div class="col-xs-{{width}}">
-				<a href="{{ item.url }}"><img src="{{ item.picture }}" alt="{{ item.title }}" class=" img-responsive"></a>
+				<a href="{{ item.url }}">
+					<img src="{{ item.picture }}" alt="{{ item.title }}" class="img-responsive pic">
+					<div class="caption">{{ item.title }}</div>
+				</a>
 			</div>
 		{% endif %}
 
