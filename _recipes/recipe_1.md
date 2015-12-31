@@ -1,6 +1,6 @@
 ---
 layout: recipes
-title:  "Recipe 1"
+title:  "Beef terriyaki"
 type: "beef"
 picture: ../assets/img/patrick_pigs.jpg
 ---
