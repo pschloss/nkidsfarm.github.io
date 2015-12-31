@@ -1,6 +1,6 @@
 {%	if page.collection == "posts"				%}
 {%		assign value = page.categories[0]		%}
-{%	else if page.collection == ""				%}
+{%	elsif page.collection == nil				%}
 {%		assign value = page.category			%}
 {%	else										%}
 {%		assign value = page.collection			%}
