@@ -6,10 +6,10 @@ layout: default
 		<h2>{{ page.title }}</h2>
 
 		<div class="row">
-			<div class="col-md-3">
-				<img class="img-responsive" src="{{ page.picture }}">
+			<div class="col-md-6">
+				<img src={{page.picture}} alt="{{ page.title }}" class="img-responsive" onerror="this.src='../assets/img/missing.jpg'" />
 			</div>
-			<div class="col-md-9 blurb">
+			<div class="col-md-6 blurb">
 				{{ content }}
 
 				<div class="price">
