@@ -5,17 +5,49 @@ layout: default
 <div class="recipes">
 	<div class="container-fluid">
 
-		<h2>{{ page.title }}</h2>
 		<div class="row">
-			<div class="col-xs-8 blurb">
-				{{ content }}
+			<div class="col-sm-8">
+				<h2>{{ page.title }}</h2>
+				<div class="blurb">{{ page.blurb }}</div>
+				<div class="info">
+					<ul>
+						{% if page.source-url != nil	%}
+						<li>Source: <a href="{{page.source-url}}">{{page.source}}</a></li>
+						{% else							%}
+						<li>Source: {{page.source}}</li>
+						{% endif						%}
+						<li>Prep time: {{ page.prep-time }}</li>
+						<li>Cook time: {{ page.cook-time }}</li>
+						<li>Serves: {{ page.serves }}</li>
+						<li>Difficulty: {{ page.difficulty }}</li>
+					</ul>
+				</div>
 			</div>
-			<div class="col-xs-4">
-				<img src={{page.picture}} alt="{{ page.title }}" class="img-responsive" width=200px />
+			<div class="col-sm-4">
+				<img src={{page.picture}} alt="{{ page.title }}" class="img-responsive" onerror="this.src='../assets/img/missing.jpg'" />
 			</div>
 		</div>
 
+		<div class="row">
+			<div class="col-sm-4 ingredients">
+				<h3>Ingredients</h3>
+				<ul>
+					{% for ingredient in page.ingredients %}
+					<li>{{ingredient[1]}}: {{ingredient[0]}}</li>
+					{% endfor %}
+				</ul>
+			</div>
+			<div class="col-sm-8 instructions">
+				<h3>Instructions</h3>
+				<ol>
+					{% for instruction in page.instructions %}
+					<li>{{ instruction }}</li>
+					{% endfor %}
+				</ol>
+			</div>
+		</div>
 	</div>
 </div>
 
+{{ content }}
 {% include disqus.html %}
