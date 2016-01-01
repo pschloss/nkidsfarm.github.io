@@ -11,7 +11,7 @@ $base-font-size:   16px;
 $small-font-size:  $base-font-size * 0.875;
 $base-line-height: 1.5;
 
-$spacing-unit:     30px;
+$spacing-unit:     20px;
 
 $text-color:       #111;
 $background-color: #fdfdfd;
@@ -22,10 +22,11 @@ $grey-color-light: lighten($grey-color, 40%);
 $grey-color-dark:  darken($grey-color, 25%);
 
 // Width of the content area
-$content-width:    800px;
+$content-width:    950px;
 
 $on-palm:          600px;
 $on-laptop:        800px;
+
 
 
 
@@ -43,10 +44,453 @@ $on-laptop:        800px;
 }
 
 
-
 // Import partials from `sass_dir` (defaults to `_sass`)
 @import
         "base",
         "layout",
         "syntax-highlighting"
 ;
+
+
+
+html{
+	background-color: $grey-color;
+}
+
+body {
+	max-width: 900px;
+	margin: 0 auto;
+	background-color: #fff;
+}
+
+.container-fluid {
+	width: 100%;
+	padding: 0 20px;
+}
+
+.header {
+	background: url(../assets/img/hero.jpg) center center no-repeat;
+	background-size: cover;
+}
+
+.nav, .nav-pills {
+	padding: 0px;
+	margin: 0px;
+}
+
+.nav ul {
+	list-style-type: none;
+	float: right;
+	padding: 0px;
+	margin: 0px;
+}
+
+.nav li {
+	height: 35px;
+	display: inline-block;
+	margin: 10px 0 0 20px;
+	padding: 0px;
+	text-align: center;
+	line-height: 100%;
+}
+
+.nav > li > a {
+	font-family: "Open Sans", sans-serif;
+	font-size: 14px;
+	font-weight: 800;
+	color: #755125;
+	padding: 5px 10px;
+}
+
+.nav>li>a:hover {
+	text-decoration: none;
+	color: #ff8e00;
+	border-bottom: solid #ff8e00 2px;
+	border-radius: 0px;
+	background-color: transparent;
+}
+
+.nav-pills li.active a {
+	background-color: #ff8e00;
+	border-radius: 0;
+	border-bottom: solid #ff8e00 2px;
+	border-radius: 0px;
+}
+.nav-pills li.active a:hover {
+	background-color: #ff8e00;
+}
+
+
+
+
+.header h1 {
+	font-family: "Roboto Slab", serif;
+	color: #fff;
+	font-size: 60px;
+	margin: 400px 0 0 50px;
+}
+
+.header p {
+	font-family: "Roboto Slab", serif;
+	color: #fff;
+	font-size: 24px;
+	margin: 0 0 100px 50px;
+}
+
+
+.blurb {
+	color: #755125;
+	margin: 0;
+}
+
+.blurb .row {
+	margin: 0 0 0 0;
+}
+.blurb h3 {
+	padding: 0;
+	margin: 30px 0 0 0;
+	font-weight: 800;
+}
+.blurb p {
+	padding: 0px;
+}
+
+.blurb img {
+	margin: 30px auto 0;
+	padding: 0;
+}
+
+.vcenter {
+	display: flex;
+    align-items: center;
+}
+
+
+
+.button-row {
+	margin: 50px 0;
+}
+
+.button-row h2 {
+	color: #755125;
+	font-weight: 600;
+	text-align: center;
+	margin: 0px 0 30px;
+}
+
+.button-row .col-md-3 {
+	position: relative;
+}
+
+.button-row a {
+}
+
+.button-row .pic {
+	opacity: 0.3;
+	position: relative;
+	margin: auto;
+}
+
+.button-row .caption {
+	color: #755125;
+	font-weight: 800;
+	font-size: 24px;
+	text-decoration: none;
+
+	line-height: 110%;
+	text-align: center;
+	position: absolute;
+	top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.button-row a:hover .pic {
+	opacity: 1.0;
+}
+
+.button-row a:hover .caption {
+	color: #fff;
+}
+
+
+
+.announcement {
+	background-color: #ff8e00;
+	padding: 50px 50px;
+}
+
+.announcement h1 {
+	font-size: 36px;
+	font-weight: 500;
+	color: #fff;
+}
+
+
+.button {
+	text-align: center;
+	color: white;
+	margin: 50px 0 0px;
+}
+
+
+
+
+
+.btn-default, .btn-default:visited {
+	text-decoration: none;
+	background-color: #ff8e00;
+	color: white;
+	width: auto;
+	padding: 10px 20px;
+	border: solid #fff 8px;
+	border-radius: 0px;
+	font-size: 24px;
+	font-weight: 600;
+	display: inline-block;
+}
+
+.btn:hover, .btn:focus {
+	background-color: #755125;
+	color: #ff8e00;
+	border-color: white;
+}
+
+.btn:active {
+	background-color: #755125;
+	color: #ff8e00;
+	border-color: white;
+}
+
+.footer {
+	background-color: #755125;
+	color: #fff;
+	font-weight: 50;
+	padding: 20px 0 20px;
+}
+
+.footer ul {
+	list-style-type: none;
+	padding: 0px;
+	margin: 0px;
+}
+
+.footer .copy li {
+	display: list-item;
+}
+
+.footer li {
+	display: inline-block;
+}
+
+.footer a, .footer a:hover {
+	color: white;
+	text-decoration: none;
+}
+
+.footer .icon > svg > path {
+	fill: #fff;
+}
+
+
+.diary {
+	margin: 0px;
+}
+.diary h2 {
+	font-weight: 800;
+	color: #755125;
+	font-size: 36px;
+}
+
+.diary .blurb {
+	color: #755125;
+	font-size: 19px;
+	font-weight: 500;
+}
+.diary ul {
+	list-style-type: none;
+	margin: 0;
+}
+.diary li { margin-bottom: 30px; }
+
+.diary-title {
+	font-weight: 800;
+	text-decoration: none;
+	color: #755125;
+	display: block;
+    font-size: 24px;
+}
+.diary-title:visited {
+	color: #ff8e00;
+}
+.diary-title:hover {
+	color: #ff8e00;
+	text-decoration: none;
+}
+
+
+.post {
+	margin: 0 25px;
+}
+.post-meta {
+	margin: 0;
+}
+
+
+.blog-nav {
+	margin: 35px 15px;
+	padding: 0 5px;
+}
+.blog-nav a {
+	color: #755125;
+	font-weight: 700;
+}
+.blog-nav a:hover {
+	color: #ff8e00;
+}
+
+
+
+.products h2 {
+	font-weight: 800;
+	color: #755125;
+	font-size: 36px;
+}
+
+.products .blurb {
+	color: #755125;
+	font-size: 19px;
+	font-weight: 500;
+	margin-bottom: 25px;
+	line-height: 120%;
+}
+
+.products .price p {
+	font-size: 14px;
+	font-weight: 100;
+	margin: 0;
+	text-align: right;
+}
+
+.products .row {
+	margin-bottom: 25px;
+}
+
+
+
+.animals h2 {
+	font-weight: 800;
+	color: #755125;
+	font-size: 36px;
+}
+
+.animals .row {
+	margin-bottom: 25px;
+}
+
+.animals .blurb {
+	color: #755125;
+	font-size: 19px;
+	font-weight: 500;
+	margin-bottom: 25px;
+	line-height: 120%;
+}
+
+
+
+.recipes h2 {
+	font-weight: 800;
+	color: #755125;
+	font-size: 36px;
+}
+
+.recipes .row {
+	margin-bottom: 25px;
+}
+
+.recipes .blurb {
+	color: #755125;
+	font-size: 19px;
+	font-weight: 500;
+	margin-bottom: 25px;
+	line-height: 120%;
+}
+
+.info ul {
+	list-style-type: none;
+}
+.info li {
+	color: #ff8e00;
+	line-height: 110%;
+	font-size: 16px
+}
+.info a {
+	color: #ff8e00;
+}
+.info a:hover {
+	color: #755125;
+}
+
+.recipes h3 {
+	font-weight: 700;
+	color: #755125;
+	font-size: 24px;
+}
+
+
+.ingredients{
+	margin: 15px 0;
+}
+.ingredients ul {
+}
+.ingredients li {
+	color: #755125;
+	line-height: 140%;
+	font-size: 16px;
+	margin-left: 0;
+}
+
+.instructions{
+	margin: 15px 0;
+}
+.instructions ol {
+}
+.instructions li {
+	color: #755125;
+	line-height: 140%;
+	font-size: 20px;
+	margin-left: 10px;
+}
+
+.picture-grid .pic {
+	opacity: 0.3;
+	position: relative;
+	margin: auto;
+}
+
+.picture-grid .caption {
+	color: #755125;
+	font-weight: 800;
+	font-size: 24px;
+	text-decoration: none;
+
+	line-height: 110%;
+	text-align: center;
+	position: absolute;
+	top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.picture-grid a:hover .pic {
+	opacity: 1.0;
+}
+
+.picture-grid a:hover .caption {
+/*	color: #fff;	*/
+	color: transparent;
+}
+
+img {
+	margin: 0 auto;
+}

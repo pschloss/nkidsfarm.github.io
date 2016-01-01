@@ -1,0 +1,15 @@
+---
+layout: default
+---
+
+<div class="recipes">
+	<div class="container-fluid">
+
+		<h2>{{page.title}}</h2>
+		{{ content }}
+
+		{% assign page_array = site.recipes | where: "type", page.tag		%}
+		{% include picture_grid.html pages=page_array columns=page.columns	%}
+
+	</div>
+</div>

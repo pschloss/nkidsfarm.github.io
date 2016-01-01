@@ -1,0 +1,23 @@
+---
+layout: default
+---
+<div class="products">
+	<div class="container-fluid">
+		<h2>{{ page.title }}</h2>
+
+		<div class="row">
+			<div class="col-md-6">
+				<img src={{page.picture}} alt="{{ page.title }}" class="img-responsive" onerror="this.src='../assets/img/missing.jpg'" />
+			</div>
+			<div class="col-md-6 blurb">
+				{{ content }}
+
+				<div class="price">
+					{% for p in page.price do %}
+						<p>{{ p[0] }}: {{ p[1] }}</p>
+					{% endfor %}
+				</div>
+			</div>
+		</div>
+	</div>
+</div>

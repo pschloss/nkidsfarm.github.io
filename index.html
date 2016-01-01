@@ -1,24 +1,84 @@
 ---
-layout: default
+layout: home
+category: home
 ---
 
-<div class="home">
+<div class="header">
 
-<!---  <h1 class="page-heading">Posts</h1>
+	{% include header.html %}
 
-  <ul class="post-list">
-    {% for post in site.posts %}
-      <li>
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+	<div class="container-fluid">
+		<h1>Eight Kids Farm</h1>
+		<p>Raising adults since 2000</p>
+	</div>
 
-        <h2>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-        </h2>
+</div>
 
-      </li>
-    {% endfor %}
-  </ul>
+<div class="blurb">
+	<div class="container-fluid">
+		<div class="row">
+			<div class="col-sm-4">
+				<img class=" img-responsive" src="assets/img/mary_lambs.jpg"/>
+			</div>
+			<div class="col-sm-8">
+				<h3>About us</h3>
+				<p>In 2009, Pat and Sarah Schloss moved to Webster Township, Michigan nestled between Dexter and Ann Arbor with four kids and no experience raising livestock. The number of children and our love for the ever growing number of sheep, cows, pigs, chickens, and bees continues to grow. We have become quite proud of our ability to provide our family and people in our community with an all-natural source of meat from animals raised the way you would expect them to be raised. The responsibility and comroderie of raising animals has also proven to be an excellent approach to nurturing our children to become responsible and compassionate adults. Be sure to check out our <a href="diary">Farm Diary</a> to learn the latest news at Eight Kids Farm.</p>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-sm-8">
+				<h3>What we offer</h3>
+				<p>Our farm specializes in producing meat, eggs, honey, and wool from a diverse collection of animals that are raised without the use of anitibiotics or artificial hormones. Be sure to check out our <a href="animals">animals and husbandry practices</a> to learn more about the breeds of animals and how we raise them. Although we do sell some meat by the cut, we commonly sell whole, half, and quarter animals. Many are overwhelmed by receiving cuts of meat that they've never cooked. Be sure to check out our collection of <a href="recipes">family favorite recipes</a>. The kids also love making <a href="products">wool products</a> that are always for sale and can be made to order. More than anything, we hope to offer members of our community an experience that improves their well-being.</p>
+			</div>
+			<div class="col-sm-4">
+				<img class=" img-responsive"  src="assets/img/joe_jerry.jpg"/>
+			</div>
 
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
---->
+		</div>
+	</div>
+</div>
+
+<div class="button-row">
+	<div class="container-fluid">
+		<h2>Learn more about our farm</h2>
+		<div class="row">
+			<div class="col-sm-3">
+				<a href="diary">
+					<img src="assets/img/patrick_pigs.jpg" alt="Farm Diary" class=" img-responsive img-circle pic">
+					<span class="caption">Farm Diary</span>
+				</a>
+			</div>
+
+			<div class="col-sm-3">
+				<a href="animals">
+					<img src="assets/img/ruth_calf.jpg" alt="Animals" class=" img-responsive img-circle pic">
+					<div class="caption">Animals</div>
+				</a>
+			</div>
+
+			<div class="col-sm-3">
+				<a href="products">
+					<img src="assets/img/john_sky.jpg" alt="Wool Products" class=" img-responsive img-circle pic">
+					<div class="caption">Wool Products</div>
+				</a>
+			</div>
+
+			<div class="col-sm-3">
+				<a href="recipes">
+					<img src="assets/img/jacob_peter.jpg" alt="Recipes" class=" img-responsive img-circle pic">
+					<div class="caption">Recipes</div>
+				</a>
+			</div>
+		</div>
+	</div>
+</div>
+
+<div class="announcement">
+	<div class="container-fluid">
+		<h1>We currently have cuts of lamb in stock and are taking orders for quarter, half, and full pigs that will be available in January.</h1>
+
+		<div class="button">
+			<a class="btn btn-default" href="#">Place Your Order</a>
+		</div>
+	</div>
 </div>
