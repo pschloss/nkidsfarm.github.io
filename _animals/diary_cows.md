@@ -1,6 +1,6 @@
 ---
 layout: animals
-title:  "Cows"
+title:  "Dairy cows"
 picture: ../assets/img/mary_joe_belties.jpg
 ---
 
