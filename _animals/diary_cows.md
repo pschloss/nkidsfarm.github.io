@@ -1,7 +1,7 @@
 ---
 layout: animals
 title:  "Dairy cows"
-picture: ../assets/img/mary_joe_belties.jpg
+picture: ../assets/img/papa_philomena.jpg
 ---
 
 Papa's bees make the best honey
