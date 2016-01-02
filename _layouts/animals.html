@@ -13,12 +13,14 @@ layout: default
 				{{ content }}
 			</div>
 
+			{% if page.prices != nil %}
 			<h3>Products and prices</h3>
 			<ul>
 				{% for item in page.prices %}
 				<li><b>{{item[0]}}:</b> {{item[1]}}</li>
 				{% endfor %}
 			</ul>
+			{% endif %}
 		</div>
 	</div>
 </div>
