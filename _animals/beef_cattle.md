@@ -3,9 +3,10 @@ layout: animals
 title:  "Beef cattle"
 picture: ../assets/img/mary_joe_belties.jpg
 prices:
-  Quarter: $4 /lb hanging weight
-  Half: $4 /lb hanging weight
-  Whole: $4 /lb hanging weight
+  Deposit: $100
+  Quarter: $4.00 /lb hanging weight
+  Half: $4.00 /lb hanging weight
+  Whole: $4.00 /lb hanging weight
 ---
 
 If you look out at our pastures you’ll see some pretty funny looking sheep – those are cows!  We currently have a mixture of [dairy breeds](dairy_cows.html) and beef breeds. Because you can't milk a dairy steer, those become beef cattle. We currently have Jersey and Guernsey steers. The Jersey steers come from our milk cows and the Guernsey steers are former Chelsea Fair projects that Joe raised as part of the Dairy Feeder Club. In 2014 he placed 1st in showmanship for his age division and in 2015 he placed 2nd! Check out the video below from the fair. John thinks that in 2016 he'd like to follow in his big brother's footsteps and raise a dairy feeder calf for the fair too. Needless to say Joe loves his cows. Over the years Joe has pooled his money from raising and selling steers to buy his own herd of [registered purebred Belted Galloway cows](http://beltie.org). These are the iconic black and white "oreo cows". They're an amazing breed for growing on a 100% grass diet. They have a two layered coat that makes them especially well suited for [southwest Scotland](https://en.wikipedia.org/wiki/Galloway) and Michigan winters. The picture to the top right shows Joe (with Mary's help) showing Hazel and her calf Thomas at the 2015 Washtenaw County 4H Fair. Joe showed Hazel and got 4th place in showmanship and 3rd for showing the cow-calf pair. In 2016, Thomas will make a repeat appearance at the fair where Joe will show him in the beef class and will sell him in the auction.
