@@ -7,4 +7,4 @@ tag: chicken
 picture: ../assets/img/patrick_pigs.jpg
 ---
 
-Beef is a great source of protein. Grass-fed beef like that raised at Eight Kids Farm is even better! Here are some of our favorite beef recipes.
+Chicken is a great source of protein. Free-range Chicken like that raised at Eight Kids Farm is even better! Here are some of our favorite Chicken recipes.
