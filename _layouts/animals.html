@@ -2,12 +2,26 @@
 layout: default
 ---
 
-<div class="animals">
-	<div class="container-fluid">
-
+<div class="container-fluid">
+	<div class="animals">
 		<h2>{{ page.title }}</h2>
-		{{ content }}
+		<div class="row">
+			<div class="col-md-4 pull-right">
+				<img class="img-responsive" src="{{page.picture}}" alt="Picture of {{page.title}}" />
+			</div>
+			<div class="description">
+				{{ content }}
+			</div>
 
+			{% if page.prices != nil %}
+			<h3>Products and prices</h3>
+			<ul>
+				{% for item in page.prices %}
+				<li><b>{{item[0]}}:</b> {{item[1]}}</li>
+				{% endfor %}
+			</ul>
+			{% endif %}
+		</div>
 	</div>
 </div>
 

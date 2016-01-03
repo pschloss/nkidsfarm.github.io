@@ -68,6 +68,10 @@ body {
 	padding: 0 20px;
 }
 
+.row {
+	margin: 0;
+
+}
 .header {
 	background: url(../assets/img/hero.jpg) center center no-repeat;
 	background-size: cover;
@@ -373,19 +377,25 @@ body {
 }
 
 .products .row {
-	margin-bottom: 25px;
+	margin: 0 0 25px;
 }
 
 
+.animals {
+	margin: 0 0 25px 0;
+	color: #755125;
+}
 
 .animals h2 {
 	font-weight: 800;
 	color: #755125;
 	font-size: 36px;
 }
-
-.animals .row {
-	margin-bottom: 25px;
+.animals h3 {
+	font-weight: 800;
+	color: #755125;
+	font-size: 24px;
+	margin: 20px 0 0 0;
 }
 
 .animals .blurb {
@@ -491,6 +501,31 @@ body {
 	color: transparent;
 }
 
+.picture-grid .row {
+	margin-bottom: 30px;
+}
+
 img {
 	margin: 0 auto;
+}
+
+
+.contact {
+	color: #755125;
+}
+
+.contact h2 {
+	font-weight: 800;
+	font-size: 36px;
+}
+
+.contact .map {
+	margin: 25px auto;
+	text-align: center;
+}
+
+.center-video {
+	margin-top: 25px;
+	margin-bottom: 25px;
+	text-align: center;
 }
