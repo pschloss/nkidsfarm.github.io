@@ -46,6 +46,16 @@ layout: default
 				</ol>
 			</div>
 		</div>
+		{% if page.notes != nil %}
+			<div class="notes">
+				<h3>Notes</h3>
+				<ul>
+					{% for note in page.notes %}
+					<li>{{ note }}</li>
+					{% endfor %}
+				</ul>
+			</div>
+		{% endif %}
 	</div>
 </div>
 

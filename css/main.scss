@@ -441,12 +441,12 @@ body {
 	color: #755125;
 }
 
+
 .recipes h3 {
 	font-weight: 700;
 	color: #755125;
 	font-size: 24px;
 }
-
 
 .ingredients{
 	margin: 15px 0;
@@ -471,6 +471,17 @@ body {
 	font-size: 20px;
 	margin-left: 10px;
 }
+
+.recipes .notes {
+	margin: 15px 0;
+	color: #755125;
+	padding: 0 15px;
+}
+.recipes .notes ul {
+}
+.recipes .notes li {
+}
+
 
 .picture-grid .pic {
 	opacity: 0.3;
