@@ -7,4 +7,4 @@ tag: pork
 picture: ../assets/img/patrick_pigs.jpg
 ---
 
-Beef is a great source of protein. Grass-fed beef like that raised at Eight Kids Farm is even better! Here are some of our favorite beef recipes.
+Pork is a great source of protein. Pasture-raised pork like that raised at Eight Kids Farm is even better! Here are some of our favorite pork recipes.
