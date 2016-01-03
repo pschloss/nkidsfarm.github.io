@@ -7,4 +7,4 @@ tag: dairy
 picture: ../assets/img/dairy.jpg
 ---
 
-Beef is a great source of protein. Grass-fed beef like that raised at Eight Kids Farm is even better! Here are some of our favorite beef recipes.
+Dairy is a great source of calcium. Grass-raised dairy like that raised at Eight Kids Farm is even better! Here are some of our favorite dairy recipes.
