@@ -4,16 +4,16 @@ title:  "Mama's Burgers"
 type: "beef"
 picture: ../assets/img/mamas_burgers.jpg
 ingredients :
-  2 lbs : Lean ground beef
-  1 large : Egg
-  3 tbsp : Worstershire sauce
-  1 medium : Diced onion
-  1 tsp : Salt
-  1 tsp : Pepper
-  1 tsp : Minced garlic
-  1/2 tsp : Dry mustard powder
-  1/2 tsp : Paprika
-  1 package : Bun
+    Lean ground beef : 2 lbs
+    Egg: 1 large
+    Worstershire sauce: 3 tbsp
+    Diced onion: 1 medium
+    Salt: 1 tsp
+    Pepper: 1 tsp
+    Minced garlic: 1 tsp
+    Dry mustard powder: 1/2 tsp
+    Paprika: 1/2 tsp
+    Bun: 1 recipe (Burger Buns)
 instructions:
   - In a large bowl, mix together all of the ingredients (but don't over mix!)
   - Form meat into fist-sized patties

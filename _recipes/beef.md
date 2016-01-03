@@ -7,4 +7,4 @@ tag: beef
 picture: ../assets/img/beef.jpg
 ---
 
-Beef is a great source of protein. Grass-fed beef like that raised at Eight Kids Farm is even better! Here are some of our favorite beef recipes.
+Beef is a amazing source of protein. Grass-fed beef like that raised at Eight Kids Farm is even better! Here are some of our favorite beef recipes.

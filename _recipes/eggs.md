@@ -7,4 +7,4 @@ tag: eggs
 picture: ../assets/img/eggs.jpg
 ---
 
-Beef is a great source of protein. Grass-fed beef like that raised at Eight Kids Farm is even better! Here are some of our favorite beef recipes.
+Eggs are a great source of protein. Free-range eggs like those raised at Eight Kids Farm are even better! Here are some of our favorite eggs recipes.
