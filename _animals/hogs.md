@@ -4,7 +4,7 @@ title:  "Hogs"
 picture: ../assets/img/patrick_training_pig.jpg
 prices:
   Breeding stock: Contact us
-  Feeder pigs: $100 each
+  Feeder pigs: $125 each
   Deposit: $100
   Quarter: $4.00 /lb hanging weight
   Half: $3.75 /lb hanging weight
