@@ -1,11 +1,13 @@
 ---
 layout: diary
 title:  "Martha's Blanket"
-date:   2016-1-03 14:19:35
+date:   2016-01-04 14:19:35
 author: Mary
 comments: true
 ---
 Great Grandma Gladney (Mama's Grandma) would always crochet us kids a baby blanket, however, recently this task has fallen to me....
+
+<img src="{{base.url}}/assets/img/martha_blanket.jpg" alt="Mary, Martha, and the blanket" width="300px" style="float:right">
 
 These blankets are from a pattern that she thought up where you go around in a sort of spiral doing three stitches to make corners. This makes them prettier (I think) than other crocheted blankets. Great Grandma Gladney taught Mama how to make these blankets and Mama taught me. I made one for Peter and a cousin of ours, but I didn't really like Peter's so I decided to make Martha's better yet.
 
