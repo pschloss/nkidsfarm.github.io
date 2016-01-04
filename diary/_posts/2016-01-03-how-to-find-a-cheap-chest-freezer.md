@@ -8,7 +8,7 @@ comments: true
 
 We're pretty good at coming up to random people and asking them if they'd like to buy a pig, lamb, or some other animal. Once they realize that we don't mean a living animal, they relax and then admit that they don't have the freezer space for a year's supply of meat. If you're one of these people, then you really need a stand alone freezer.
 
-<img src="{{site.url}}/assets/img/freezer.jpg" alt="One of N Kids Farm's freezers" width="300px" style="float:right">
+<img src="{{base.url}}/assets/img/freezer.jpg" alt="One of N Kids Farm's freezers" width="300px" style="float:right">
 
 Why would you want your own freezer? Aside from stocking it full of ice cream, a freezer is an exceptional tool for preserving food. Those are all great reasons to have a freezer, but, we want you to have a freezer so you can support small farms like ours by purchasing an entire or fraction of an animal. Much like having your own stockpile of ice cream, having a freezer full of meat will provide you with a diverse supply of easy to access meat. Since we started raising animals one of the things that I have really enjoyed is the diversity of meat that we get. Sure some people have an entire pig turned into sausage. But you can also get hams, spare ribs, butt roasts, hocks, chops, steaks, soup bones, offal, and ... BACON! We open our freezer and see cooking and eating as an adventure that we wouldn't get to take if we bough the typical cuts from Meijer.
 
