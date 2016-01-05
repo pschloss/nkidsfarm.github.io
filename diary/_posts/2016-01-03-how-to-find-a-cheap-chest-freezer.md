@@ -1,0 +1,25 @@
+---
+layout: diary
+title:  "How to find a cheap chest freezer"
+date:   2016-01-03
+author: Papa
+comments: true
+---
+
+We're pretty good at coming up to random people and asking them if they'd like to buy a pig, lamb, or some other animal. Once they realize that we don't mean a living animal, they relax and then admit that they don't have the freezer space for a year's supply of meat. If you're one of these people, then you really need a stand alone freezer.
+
+<img src="{{base.url}}/assets/img/freezer.jpg" alt="One of N Kids Farm's freezers" width="300px" style="float:right">
+
+Why would you want your own freezer? Aside from stocking it full of ice cream, a freezer is an exceptional tool for preserving food. Those are all great reasons to have a freezer, but, we want you to have a freezer so you can support small farms like ours by purchasing an entire or fraction of an animal. Much like having your own stockpile of ice cream, having a freezer full of meat will provide you with a diverse supply of easy to access meat. Since we started raising animals one of the things that I have really enjoyed is the diversity of meat that we get. Sure some people have an entire pig turned into sausage. But you can also get hams, spare ribs, butt roasts, hocks, chops, steaks, soup bones, offal, and ... BACON! We open our freezer and see cooking and eating as an adventure that we wouldn't get to take if we bough the typical cuts from Meijer.
+
+This really drove home the point for us that although we can go to the grocery store and buy a limitless supply of bacon, you can't ask the butcher to turn your entire pig into bacon. We had a customer call the butcher one year because they were concerned that they didn't get any tenderloin. The butcher asked whether they got any pork chops. Yep. Well there's your tenderloin, the butcher replied. For better or worse, we've gotten pretty far from realizing where our food comes from. While everything can be turned into sausage, the tenderloin and chops share real estate. When you buy a half or the entire animal, you get to tell the butcher how you want things processed. In addition to the cuts, you can discuss seasoning, smoking, thickness of cuts, etc with the butcher. These are all choices that you get to make when it's your pig.
+
+In addition to having a conversation with your butcher, you also get to have a relationship with your farmer. You can eat your pork knowing who raised your hog and how it was raised. You can even come out to the farm, to see, and help care for the pigs. For most consumers this is not a big deal, a pork chop is a pork chop. For others, issues like whether there were antibiotics or supplemental hormones added to the feed and whether the animal was raised outside with room to rut or inside a barn are important. As we outline on our [pig husbandry page](http://nkidsfarm.com/animals/hogs.html), our animals are raised outside, receive no antibiotics or supplemental hormones, eat a locally grown GMO-free feed, and drink whey from a local goat dairy. How did Bob Evans raise the pigs in those sausages? We've had pig producers tell us that they can taste the difference between our pork and theirs and that they love ours. It's hard to get a better testimonial than that.
+
+Clearly you want a chest freezer. How big of a freezer do you need? Walter Jeffries is a pig farmer in New England that we follow online for his great tips and sense of humor. [He's noted that...](http://sugarmtnfarm.com/2006/07/04/what-is-a-half-pig-share/#comment-2326)
+
+> A half pig is about two cubic feet of cuts. Think of two milk crates which are about 12" x 12" x 12" which is one cubic-foot or 1,728 cubic-inches. A half gallon of ice cream comes in a box about 3.5″ x 6.5″ x 5″ which is 114 cubic-inches or about 0.066 cubic-feed. Thus a half pig is about as big as about 30 half-gallon boxes of ice cream.
+
+Now what style do you get? There are two to choose from: chest freezers and upright freezers. We have some of each. The chest freezers are great because the cold air stays in the freezer when you open it (hot air rises, cool air sinks) making them more energy efficient. Upright freezers are great because they take up half the foot print of a chest freezer. Because, eventually you'll want two freezers! Where do you get them? You can get a freezer from an appliance store or craigslist. We've gotten our freezers from craigslist. If you're in the Ann Arbor area, here's a [link to the freezers for sale in our area](http://annarbor.craigslist.org/search/sss?sort=rel&query=freezer). There are currently several chest freezers for sale for under $200 that are compact and would easily hold a whole pig.
+
+Every family interested in partaking of their local food production community needs a freezer. It gives you the flexibility to have the animal you want grown and processed the way you think best. It will help expand the types of food your family eats. Enough already, go buy a chest freezer and then give us a call, we'd love to sell you some meat.
