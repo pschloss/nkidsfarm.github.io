@@ -1,6 +1,7 @@
 ---
 layout: animals
 title: "Broilers"
+product: Poultry
 picture: ../assets/img/broilers.jpg
 ---
 

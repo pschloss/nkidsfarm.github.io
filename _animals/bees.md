@@ -1,6 +1,7 @@
 ---
 layout: animals
 title: "Bees"
+product: "Honey"
 picture: ../assets/img/bees.jpg
 prices:
   Jelly-jar: $10

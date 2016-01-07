@@ -412,7 +412,6 @@ body {
 	font-weight: 800;
 	color: #755125;
 	font-size: 36px;
-	padding: 15px 15px;
 }
 
 .recipes .row {
@@ -540,6 +539,43 @@ img {
 	margin-top: 25px;
 	margin-bottom: 25px;
 	text-align: center;
+}
+
+
+.prices {
+	color: #755125;
+}
+
+.prices h2 {
+	font-weight: 800;
+	font-size: 36px;
+}
+
+.prices a {
+	font-weight: 600;
+	color: #755125;
+	font-size: 24px;
+	margin: 20px 0 0 20px;
+	padding: 0;
+}
+.prices a:hover{
+	color: #ff8e00;
+}
+
+.prices ul {
+	margin-left: 40px;
+}
+
+.prices .blurb {
+	font-size: 18px;
+	margin-top: 50px;
+	color: #ff8e00;
+}
+.prices .blurb a {
+	margin: 0;
+	padding: 0;
+	font-size: 18px;
+	font-weight: normal;
 }
 
 blockquote {

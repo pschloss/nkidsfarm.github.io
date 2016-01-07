@@ -1,11 +1,11 @@
 ---
 layout: animals
 title:  "Beef cattle"
+product: Beef
 picture: ../assets/img/mary_joe_belties.jpg
 prices:
   Deposit: $100
-  Quarter: $4.00 /lb hanging weight
-  Half: $4.00 /lb hanging weight
+  Half: $4.25 /lb hanging weight
   Whole: $4.00 /lb hanging weight
 ---
 

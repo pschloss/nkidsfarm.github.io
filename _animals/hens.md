@@ -1,6 +1,7 @@
 ---
 layout: animals
 title: "Hens"
+product: Poultry
 picture: ../assets/img/hens.jpg
 prices:
   Spent hens: $5 each

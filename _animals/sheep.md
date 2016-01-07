@@ -1,11 +1,13 @@
 ---
 layout: animals
 title:  "Sheep"
+product: "Lamb"
 picture: ../assets/img/ruth_lamb.jpg
 prices:
   Breeding stock: Contact us
   Deposit: $100
-  Lamb: $5.00 /lb hanging weight
+  Half lamb: $5.25 /lb hanging weight
+  Whole lamb: $5.00 /lb hanging weight
   Mutton: $4.00 /lb hanging weight
 ---
 

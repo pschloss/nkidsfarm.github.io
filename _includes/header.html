@@ -14,6 +14,7 @@
 				{% if page.category != "home" %}
 				<li role="presentation" ><a href="{{site.baseurl}}/">Home</a></li>
 				{% endif %}
+				<li role="presentation" {% if value == "prices" %}class="active"{% endif %}><a href="{{ site.baseurl }}/prices">Prices</a></li>
 				<li role="presentation" {% if value == "diary" %}class="active"{% endif %}><a href="{{site.baseurl}}/diary">Farm Diary</a></li>
 				<li role="presentation" {% if value == "animals" %}class="active"{% endif %}><a href="{{ site.baseurl }}/animals">Animals</a></li>
 				<li role="presentation" {% if value == "products" %}class="active"{% endif %}><a href="{{ site.baseurl }}/products">Wool Products</a></li>

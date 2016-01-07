@@ -1,6 +1,7 @@
 ---
 layout: animals
 title:  "Dairy cows"
+product: Dairy
 picture: ../assets/img/papa_philomena.jpg
 prices:
   Heifer: contact us
