@@ -339,7 +339,10 @@ body {
 .post-meta {
 	margin: 0;
 }
-
+.post .post-meta {
+	float: left;
+	color: #ff8e00;
+}
 
 .blog-nav {
 	margin: 35px 15px;
@@ -580,4 +583,17 @@ img {
 
 blockquote {
 	font-size: $base-font-size;
+}
+
+
+.share-page {
+    padding: 0 5px;
+    border-radius: 5px;
+    margin: 0;
+	display: inline-block;
+
+	a {
+		color: #ff8e00;
+			display: inline-block;
+	}
 }
