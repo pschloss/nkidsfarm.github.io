@@ -342,6 +342,7 @@ body {
 .post .post-meta {
 	float: left;
 	color: #ff8e00;
+	padding: 1px 0;
 }
 
 .blog-nav {
@@ -598,4 +599,11 @@ blockquote {
 		color: #ff8e00;
 		display: inline-block;
 	}
+}
+
+.comment-count {
+	color: #ff8e00;
+	font-size: $small-font-size;
+	display: inline-block;
+	padding: 0;
 }
