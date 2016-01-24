@@ -14,3 +14,6 @@ collections:
     output: true
   recipes:
     output: true
+
+gems:
+  - jekyll-sitemap
