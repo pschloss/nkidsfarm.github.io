@@ -2,7 +2,7 @@ GEM
   remote: https://rubygems.org/
   specs:
     RedCloth (4.2.9)
-    activesupport (4.2.5)
+    activesupport (4.2.5.1)
       i18n (~> 0.7)
       json (~> 1.7, >= 1.7.7)
       minitest (~> 5.1)
@@ -102,10 +102,12 @@ GEM
       rb-inotify (>= 0.9)
     maruku (0.7.0)
     mercenary (0.3.5)
-    minitest (5.8.3)
+    mini_portile2 (2.0.0)
+    minitest (5.8.5)
     multipart-post (2.0.0)
     net-dns (0.8.0)
-    nokogiri (1.5.6)
+    nokogiri (1.6.7.2)
+      mini_portile2 (~> 2.0.0.rc2)
     octokit (4.2.0)
       sawyer (~> 0.6.0, >= 0.5.3)
     parslet (1.5.0)
@@ -144,4 +146,4 @@ DEPENDENCIES
   github-pages
 
 BUNDLED WITH
-   1.11.2
+   1.15.2
