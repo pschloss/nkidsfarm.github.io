@@ -21,7 +21,7 @@ If you look out at our pastures you’ll see some pretty funny looking sheep –
 		<div class="fb-xfbml-parse-ignore">
 			<blockquote cite="https://www.facebook.com/NKidsFarm/videos/864449010289858/"><a href="https://www.facebook.com/NKidsFarm/videos/864449010289858/"></a>
 				<p>Joe and Jerry got 2nd place in showmanship - yippee!</p>
-				Posted by <a href="https://www.facebook.com/NKidsFarm/">Eight Kids Farm</a> on Wednesday, August 26, 2015
+				Posted by <a href="https://www.facebook.com/NKidsFarm/">Nine Kids Farm</a> on Wednesday, August 26, 2015
 			</blockquote>
 		</div>
 	</div>

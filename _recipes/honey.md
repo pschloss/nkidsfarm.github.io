@@ -7,4 +7,4 @@ tag: honey
 picture: ../assets/img/honey.jpg
 ---
 
-Honey is a great source of natural sugar. Red clover honey like that raised at Eight Kids Farm is even better! Here are some of our favorite honey recipes.
+Honey is a great source of natural sugar. Red clover honey like that raised at Nine Kids Farm is even better! Here are some of our favorite honey recipes.

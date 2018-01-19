@@ -1,5 +1,5 @@
 # Site settings
-title: Eight Kids Farm
+title: Nine Kids Farm
 description: Raising adults since 2000. We're a family farm in Dexter, MI raising our 8 children to be amazing adults with the help of our sheep, cows, chickens, pigs, and bees.
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://nkidsfarm.com" # the base hostname & protocol for your site
@@ -17,4 +17,3 @@ collections:
 
 gems:
   - jekyll-sitemap
-

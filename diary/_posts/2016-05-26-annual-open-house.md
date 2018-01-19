@@ -35,7 +35,7 @@ We have developed a wonderful relationship with the people at Zeilinger Woolen M
 
 ***Now, on to upcoming events!***
 
-**Eight Kids Farm Open House:** Saturday, June 4th 10-noon.  Come and see the lambs, piglets, and all the other animals!  Pet a lamb, bottle feed a calf, and see how we rotationally graze the animals to improve the fertility and carrying capacity of the soil.  5420 Farrell Rd. Dexter MI. 48130.
+**Nine Kids Farm Open House:** Saturday, June 4th 10-noon.  Come and see the lambs, piglets, and all the other animals!  Pet a lamb, bottle feed a calf, and see how we rotationally graze the animals to improve the fertility and carrying capacity of the soil.  5420 Farrell Rd. Dexter MI. 48130.
 
 Washtenaw County 4-H Fair: Sunday, July 24-Friday, July 29.  Fairgrounds are on Ann Arbor-Saline Rd. in Saline.
 

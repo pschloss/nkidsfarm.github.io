@@ -20,7 +20,7 @@ Nothing sets the rhythm of the farm quite like milking a cow twice a day, every 
 		<div class="fb-xfbml-parse-ignore">
 			<blockquote cite="https://www.facebook.com/NKidsFarm/videos/864837790250980/"><a href="https://www.facebook.com/NKidsFarm/videos/864837790250980/"></a>
 				<p>Here&#039;s John showing his heifer calf in showmanship and taking 1st place! (Ignore that bit at the end about his papa being a cheapskate)</p>
-				Posted by <a href="https://www.facebook.com/NKidsFarm/">Eight Kids Farm</a> on Thursday, August 27, 2015
+				Posted by <a href="https://www.facebook.com/NKidsFarm/">Nine Kids Farm</a> on Thursday, August 27, 2015
 			</blockquote>
 		</div>
 	</div>

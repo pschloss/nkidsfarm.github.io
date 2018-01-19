@@ -24,5 +24,5 @@ cook-time: 10 min
 serves: 8
 source: Mama
 difficulty: easy-peasy
-blurb: If you've ever come to Eight Kids Farm in the summer it is likely you've had Mama's amazing hamburgers made from our grass-fed beef
+blurb: If you've ever come to Nine Kids Farm in the summer it is likely you've had Mama's amazing hamburgers made from our grass-fed beef
 ---

@@ -22,7 +22,7 @@ prices:
 		<div class="fb-xfbml-parse-ignore">
 			<blockquote cite="https://www.facebook.com/NKidsFarm/videos/864572366944189/"><a href="https://www.facebook.com/NKidsFarm/videos/864572366944189/"></a>
 			<p>Mary had a little lamb... And it helped her win 1st place in showmanship!</p>
-			Posted by <a href="https://www.facebook.com/NKidsFarm/">Eight Kids Farm</a> on Wednesday, August 26, 2015</blockquote>
+			Posted by <a href="https://www.facebook.com/NKidsFarm/">Nine Kids Farm</a> on Wednesday, August 26, 2015</blockquote>
 		</div>
 	</div>
 </div>
