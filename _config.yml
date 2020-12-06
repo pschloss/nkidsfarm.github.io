@@ -5,6 +5,9 @@ baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://nkidsfarm.com" # the base hostname & protocol for your site
 twitter_username: nkidsfarm
 facebook_username: nkidsfarm
+instagram_username: nkidsfarm
+tiktok_username: nkidsfarm
+
 email: nkidsfarm@gmail.com
 
 collections:

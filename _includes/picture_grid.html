@@ -27,7 +27,7 @@
 
 	{% for item in include.pages %}
 
-		{% if item.title != nil %}
+		{% if item.title != "Index" %}
 			{% if column_index == 0 %}<div class="row">{% endif %}
 			{% assign column_index = column_index | plus: 1 %}
 			<div class="col-md-{{width}}">
