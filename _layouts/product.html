@@ -13,7 +13,7 @@ layout: default
 				{{ content }}
 
 				<div class="price">
-					{% for p in page.price do %}
+					{% for p in page.price %}
 						<p>{{ p[0] }}: {{ p[1] }}</p>
 					{% endfor %}
 				</div>
