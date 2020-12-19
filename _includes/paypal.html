@@ -1,0 +1,70 @@
+<div class="options">
+	<div>
+		<label for="animal">Choose a protein:</label>
+		<select name="name" id="animal">
+		  <option value="1/2 Pork">1/2 Pork</option>
+		  <option value="1/4 Beef">1/4 Beef</option>
+		  <option value="1/2 Lamb">1/2 Lamb</option>
+		</select>
+	</div>
+
+	<div>
+		<label for="quantity">Choose a quantity:</label>
+		<select name="name" id="quantity">
+		  <option value="1">1</option>
+		  <option value="2">2</option>
+		  <option value="3">3</option>
+			<option value="3">4</option>
+		</select>
+	</div>
+</div>
+
+<script
+	src="https://www.paypal.com/sdk/js?client-id=ASGLP3UkQDG0QMiQKChoMS1U_HRzRgmHl_l0Oc2W-vyixoTGdoOQTfj6GxNWAoPUdo8800ws5P132Am5&disable-funding=credit"> // Required. Replace SB_CLIENT_ID with your sandbox client ID.
+</script>
+
+<div id="paypal-button-container"></div>
+
+<script>
+  paypal.Buttons({
+		style: {
+			shape: 'pill',
+			color: 'blue',
+			layout: 'vertical',
+			label: 'pay',
+
+		},
+    createOrder: function(data, actions) {
+      // This function sets up the details of the transaction, including the amount and line item details.
+     return actions.order.create({
+        purchase_units: [{
+          'amount': {
+						'currency_code': 'USD',
+            'value': 50 * (document.getElementById("quantity")).value,
+						'breakdown': {
+							'item_total':{
+								'value': 50 * (document.getElementById("quantity")).value,
+								'currency_code': 'USD'
+							}
+						}
+          },
+					items:[		{
+						name: (document.getElementById("animal")).value,
+						description:"Deposit",
+				    quantity: (document.getElementById("quantity")).value,
+				    unit_amount:{
+							value: 50,
+							currency_code:"USD"
+						}
+				 }]
+		 }]});
+    },
+		onApprove: function(data, actions) {
+			// This function captures the funds from the transaction.
+			return actions.order.capture().then(function(details) {
+				// This function shows a transaction success message to your buyer.
+				alert('Transaction completed by ' + details.payer.name.given_name);
+			});
+		}
+  }).render('#paypal-button-container');
+</script>

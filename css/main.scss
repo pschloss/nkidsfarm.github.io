@@ -304,40 +304,41 @@ body {
 }
 
 
-.diary {
+.deposit {
 	margin: 0px;
 }
-.diary h2 {
+.deposit h2 {
 	font-weight: 800;
 	color: #755125;
 	font-size: 36px;
 }
 
-.diary .blurb {
+.deposit .blurb {
 	color: #755125;
 	font-size: 19px;
 	font-weight: 500;
+	padding: 0;
 }
-.diary ul {
+.deposit ul {
 	list-style-type: none;
 	margin: 0;
 }
-.diary li { margin-bottom: 30px; }
-
-.diary-title {
-	font-weight: 800;
-	text-decoration: none;
-	color: #755125;
-	display: block;
-    font-size: 24px;
-}
-.diary-title:visited {
-	color: #ff8e00;
-}
-.diary-title:hover {
-	color: #ff8e00;
-	text-decoration: none;
-}
+.deposit li { margin-bottom: 30px; }
+//
+// .diary-title {
+// 	font-weight: 800;
+// 	text-decoration: none;
+// 	color: #755125;
+// 	display: block;
+//     font-size: 24px;
+// }
+// .diary-title:visited {
+// 	color: #ff8e00;
+// }
+// .diary-title:hover {
+// 	color: #ff8e00;
+// 	text-decoration: none;
+// }
 
 
 .post {
@@ -616,4 +617,24 @@ blockquote {
 	font-size: $small-font-size;
 	display: inline-block;
 	padding: 0;
+}
+
+@media (min-width: 600px){
+	#paypal-button-container {
+		width: 50%;
+	}
+}
+
+#paypal-button-container {
+	margin: 10px auto;
+}
+
+.options {
+	width: 300px;
+	margin: 0 auto;
+}
+
+label{
+	font-size: 1.2*$base-font-size;
+	color: #755125;
 }
