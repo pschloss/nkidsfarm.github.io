@@ -320,10 +320,12 @@ body {
 	padding: 0;
 }
 .deposit ul {
-	list-style-type: none;
-	margin: 0;
+	// list-style-type: none;
+	// margin: 0;
 }
-.deposit li { margin-bottom: 30px; }
+.deposit li {
+	// margin-bottom: 30px; 
+}
 //
 // .diary-title {
 // 	font-weight: 800;
@@ -630,7 +632,7 @@ blockquote {
 }
 
 .options {
-	width: 300px;
+	width: 400px;
 	margin: 0 auto 10px auto;
 }
 

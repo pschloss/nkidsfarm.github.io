@@ -6,12 +6,24 @@ category: commerce
 <div class="deposit">
 	<div class="container-fluid">
 		<h2>Put down a deposit</h2>
-		<div class="row" style="margin-bottom:40px">
+		<div class="row" style="margin-bottom:10px">
 			<div class="col-md-8 blurb">
-				Nothing is quite like having a freezer full of meat. Buying a portion of an animal will give you an ample supply of diverse cuts and the ability to tell the butcher exactly how you want the animal proessed. To reserve your animal, you will need to put down a deposit. The buttons below will allow you to put down a deposit on fractions of animals using your credit card. Unfortunately, we cannot reserve your animal for you until we have received a deposit. Throughout the year we have beef (sold in quarters), pork (solid in halves), lamb (sold in halves), chicken, and turkeys. Availability of these products is somewhat seasonal and in high demand, so be sure to check back if products are not listed. Also, please be sure to contact us by <a href="mailto:{{ site.email }}">email</a> or <a href="tel:413-548-4444">phone</a> to confirm a date for your animal.
+				Nothing is quite like having a freezer full of meat. Buying a portion of an animal will give you an ample supply of diverse cuts and the ability to tell the butcher exactly how you want the animal processed. To reserve your animal, you will need to put down a deposit. The buttons below will allow you to put down a deposit on fractions of animals using your credit card. Unfortunately, we cannot reserve your animal for you until we have received a deposit. Throughout the year we have beef (sold in halves), pork (sold in halves), lamb (sold as whole), chicken, and turkeys. Availability of these products is somewhat seasonal and in high demand, so be sure to check back if products are not listed. Also, please be sure to contact us by <a href="mailto:{{ site.email }}">email</a> or <a href="tel:413-548-4444">phone</a> to confirm a date for your animal.
 			</div>
 			<div class="col-md-4">
 				<img src="../assets/img/patrick_pigs.jpg" alt="Farm Diary" class=" img-responsive">
+			</div>
+
+		</div>
+		<div class="row" style="margin-bottom:40px">
+			<div class="col-md-12 blurb">
+				<h3>Prices (all based on hanging weights):</h3>
+				<ul>
+					<li><b>Beef:</b> $4.00/lb (typical hanging weight ~300 lbs for half)</li>
+					<li><b>Pork:</b> $3.75/lb (typical hanging weight ~125 lbs for half)</li>
+					<li><b>Lamb:</b> $5.00/lb (typical hanging weight ~60 lbs for lamb)</li>
+				</ul>
+				<p>Processing fees are additional and paid by the customer</p>
 			</div>
 		</div>
 		<div>
@@ -19,6 +31,5 @@ category: commerce
 			{% include paypal.html %}
 
 		</div>
-
 	</div>
 </div>
