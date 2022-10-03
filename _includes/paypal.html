@@ -37,14 +37,24 @@
 		},
     createOrder: function(data, actions) {
       // This function sets up the details of the transaction, including the amount and line item details.
+
+			let per_item = 0;
+			switch ((document.getElementById("animal")).value) {
+				case 'Whole Turkey':
+					per_item = 25;
+					break;
+				default:
+					per_item = 100;
+			}
+
      return actions.order.create({
         purchase_units: [{
           'amount': {
 						'currency_code': 'USD',
-            'value': 100 * (document.getElementById("quantity")).value,
+            'value': per_item * (document.getElementById("quantity")).value,
 						'breakdown': {
 							'item_total':{
-								'value': 100 * (document.getElementById("quantity")).value,
+								'value': per_item * (document.getElementById("quantity")).value,
 								'currency_code': 'USD'
 							}
 						}
@@ -54,7 +64,7 @@
 						description:"Deposit",
 				    quantity: (document.getElementById("quantity")).value,
 				    unit_amount:{
-							value: 100,
+							value: per_item,
 							currency_code:"USD"
 						}
 				 }]

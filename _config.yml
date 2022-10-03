@@ -18,5 +18,5 @@ collections:
   recipes:
     output: true
 
-gems:
+plugins:
   - jekyll-sitemap
